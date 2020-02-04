@@ -2,8 +2,8 @@
 #include<string>
 
 using namespace std;
-
-//Declare prototype of function template mySwap() here
+template <class o>
+void mySwap (o &,o &);
 
 
 int main(){
@@ -33,7 +33,16 @@ int main(){
 
 	return 0;
 }
+template <class o>
+void mySwap (o &a,o &b){
+	o z=a;
+	a=b;
+	b=z;
+	
+	
+		
+}
+ 
 
 
-//Write definition of function template mySwap() here
 
